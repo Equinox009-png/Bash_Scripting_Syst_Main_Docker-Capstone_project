@@ -1,0 +1,7 @@
+2025-11-07 INFO: System boot complete
+2025-11-07 INFO: User logged in successfully
+2025-11-07 WARNING: High memory usage detected
+2025-11-07 ERROR: Disk space low on drive C:
+2025-11-07 OK: Cleanup completed successfully
+2025-11-07 CRITICAL: Service xyz crashed unexpectedly
+2025-11-07 INFO: System running normally again

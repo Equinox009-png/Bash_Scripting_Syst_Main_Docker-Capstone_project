@@ -1,0 +1,10 @@
+[2025-11-07 17:43:44] Starting backup: '/host/Users/KANHA/Documents/projects' -> '/data/backups/projects_backup_2025-11-07_174344.tar.gz'
+[2025-11-07 17:43:44] Archive created: /data/backups/projects_backup_2025-11-07_174344.tar.gz
+[2025-11-07 17:43:44] Rotating backups, keeping last 3
+[2025-11-07 17:43:44] No old backups to remove (found 1).
+[2025-11-07 17:43:44] Backup finished successfully: /data/backups/projects_backup_2025-11-07_174344.tar.gz
+[2025-11-07 17:46:15] Starting backup: '/host/Users/KANHA/Documents/projects' -> '/data/backups/projects_backup_2025-11-07_174615.tar.gz'
+[2025-11-07 17:46:15] Archive created: /data/backups/projects_backup_2025-11-07_174615.tar.gz
+[2025-11-07 17:46:15] Rotating backups, keeping last 3
+[2025-11-07 17:46:15] No old backups to remove (found 2).
+[2025-11-07 17:46:15] Backup finished successfully: /data/backups/projects_backup_2025-11-07_174615.tar.gz

@@ -1,0 +1,10 @@
+[2025-11-07 17:31:47] Starting backup: '/host/Users/KANHA/Desktop/hero' -> '/data/backups/hero_backup_2025-11-07_173147.tar.gz'
+[2025-11-07 17:31:47] Archive created: /data/backups/hero_backup_2025-11-07_173147.tar.gz
+[2025-11-07 17:31:47] Rotating backups, keeping last 3
+[2025-11-07 17:31:47] No old backups to remove (found 2).
+[2025-11-07 17:31:47] Backup finished successfully: /data/backups/hero_backup_2025-11-07_173147.tar.gz
+[2025-11-07 17:45:07] Starting backup: '/host/Users/KANHA/Desktop/hero' -> '/data/backups/hero_backup_2025-11-07_174507.tar.gz'
+[2025-11-07 17:45:07] Archive created: /data/backups/hero_backup_2025-11-07_174507.tar.gz
+[2025-11-07 17:45:07] Rotating backups, keeping last 3
+[2025-11-07 17:45:07] No old backups to remove (found 3).
+[2025-11-07 17:45:07] Backup finished successfully: /data/backups/hero_backup_2025-11-07_174507.tar.gz

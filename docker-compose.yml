@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  sys_maint:
+    build: .
+    image: sys_maint_suite:latest
+    container_name: sys_maint_suite
+    volumes:
+      - ./data:/data
+      # Map host logs (optional, read-only)
+      - /var/log:/var/log:ro
+    tty: true
+    stdin_open: true

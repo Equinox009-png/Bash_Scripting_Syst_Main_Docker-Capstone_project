@@ -1,0 +1,21 @@
+No alerts found.
+No alerts found.
+No alerts found.
+No alerts found.
+No alerts found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+Log file /var/log/syslog not found.
+[2025-11-07 17:49:40] Log file C:\Users\KANHA\Documents\sys_maint_docker\data\source\sample.log not found.
+[2025-11-07 17:52:43] Scanning /data/source/sample.log for keywords: error fail unauthorized critical panic
+[2025-11-07 17:52:43] Found matches for 'error':
+4:2025-11-07 ERROR: Disk space low on drive C:
