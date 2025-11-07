@@ -1,58 +1,64 @@
-System Maintenance Suite (Docker + Bash)
+# 🧰 System Maintenance Suite (Docker + Bash)
 
-A lightweight, Dockerized System Maintenance Suite built entirely with Bash scripting.
-It automates routine system tasks such as backups, updates, cleanup, and log monitoring —
-all accessible via a simple interactive menu.
+A lightweight, **Dockerized System Maintenance Suite** built entirely with **Bash scripting**.  
+It automates routine system tasks such as **backups, updates, cleanup, and log monitoring** —  
+all accessible via a simple **interactive menu**.
 
-🚀 Features
+---
 
-🗂 Automated Backups — Create timestamped .tar.gz backups of any directory
-and keep only the last N backups automatically.
+## 🚀 Features
 
-⚙️ System Update & Cleanup — Perform apt update, upgrade, and cleanup
-operations in a controlled container environment.
+- 🗂 **Automated Backups** — Create timestamped `.tar.gz` backups of any directory  
+  and keep only the last _N_ backups automatically.
 
-🧾 Log Monitoring — Scan any log file for critical keywords like
-error, fail, unauthorized, critical, and panic,
-with results saved to structured logs.
+- ⚙️ **System Update & Cleanup** — Perform `apt update`, `upgrade`, and cleanup  
+  operations in a controlled container environment.
 
-🧭 Interactive Menu — Easily run all modules manually via a
-text-based interactive interface.
+- 🧾 **Log Monitoring** — Scan any log file for critical keywords like  
+  `error`, `fail`, `unauthorized`, `critical`, and `panic`,  
+  with results saved to structured logs.
 
-🐳 Dockerized Setup — Self-contained environment with all dependencies
-(Bash, cron, coreutils, etc.) built into a minimal Ubuntu image.
+- 🧭 **Interactive Menu** — Easily run all modules manually via a  
+  text-based interactive interface.
 
-📁 Project Structure
-sys_maint_docker/
-├── Dockerfile                 # Docker image definition
-├── entrypoint.sh              # Container entrypoint
+- 🐳 **Dockerized Setup** — Self-contained environment with all dependencies  
+  (Bash, cron, coreutils, etc.) built into a minimal Ubuntu image.
+
+  sys_maint_docker/
+├── Dockerfile # Docker image definition
+├── entrypoint.sh # Container entrypoint
 ├── scripts/
-│   ├── backup.sh              # Creates backups and rotates old ones
-│   ├── update_cleanup.sh      # Updates & cleans packages
-│   ├── log_monitor.sh         # Scans log files for errors/warnings
-│   └── suite_menu.sh          # Interactive menu interface
+│ ├── backup.sh # Creates backups and rotates old ones
+│ ├── update_cleanup.sh # Updates & cleans packages
+│ ├── log_monitor.sh # Scans log files for errors/warnings
+│ └── suite_menu.sh # Interactive menu interface
 └── data/
-    ├── source/                # Input files (source directories/logs)
-    ├── backups/               # Output backups (.tar.gz)
-    └── logs/                  # Generated logs (per-module + alerts)
+├── source/ # Input files (source directories/logs)
+├── backups/ # Output backups (.tar.gz)
+└── logs/ # Generated logs (per-module + alerts)
 
-⚙️ Prerequisites
 
-Docker Desktop installed and running
+---
 
-Git Bash or WSL (Ubuntu) terminal
+## ⚙️ Prerequisites
 
-Basic familiarity with command line usage
+- **Docker Desktop** installed and running  
+- **Git Bash** (recommended) or **WSL (Ubuntu)**  
+- Basic familiarity with command line usage
 
-🧩 Setup Instructions
-1️⃣ Clone the repository
+---
+
+## 🧩 Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Equinox009-png/sys_maint_docker.git
 cd sys_maint_docker
 
-2️⃣ Build the Docker image
+2️⃣ Build the Docker Image
 docker build -t sys_maint_suite:latest .
 
-3️⃣ Prepare data folders
+3️⃣ Prepare Data Folders
 mkdir -p data/logs data/backups data/source
 
 
@@ -61,7 +67,7 @@ mkdir -p data/logs data/backups data/source
 echo "2025-11-07 ERROR: Disk space low" > data/source/sample.log
 
 💻 Usage
-▶️ Run Interactive Menu (recommended)
+▶️ Run Interactive Menu (Recommended)
 
 In Git Bash:
 
@@ -89,7 +95,7 @@ Menu Options:
 Windows Path	Docker Path Inside Container
 C:\Users\KANHA\Documents\sys_maint_docker\data	/data
 C:\Users\KANHA\Documents\sys_maint_docker\data\source\sample.log	/data/source/sample.log
-C:\Users\KANHA\Desktop\hero	/host/Users/KANHA/Desktop/hero
+C:\Users\KANHA\Documents\projects	/host/Users/KANHA/Documents/projects
 🧾 Log Output
 Module	Log File
 Backup	/data/logs/backup.log
@@ -135,15 +141,21 @@ Log Monitor Results
 
 [2025-11-07 17:52:43] Found matches for 'error':
 4:2025-11-07 ERROR: Disk space low on drive C:
-👩‍💻 Author
 
-Developed by: Jyoti Prakash Swain 
-Branch: Electronics and Communication Engineering
-Year: 4th Year
-Feel free to modify it and improve its functionality!
+📜 License
+
+This project is open-source and free to use for educational and personal purposes.
+Feel free to modify it and improve its functionality.
 
 👩‍💻 Author
 
 Developed by: Jyoti Prakash Swain (Equinox)
 Branch: Electronics and Communication Engineering
-Year: 3rd Year
+Year: 4th Year
+
+“Automating the boring stuff — one script at a time.” 🌙
+
+---
+
+## 📁 Project Structure
+
